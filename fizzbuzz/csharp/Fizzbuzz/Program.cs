@@ -1,5 +1,4 @@
-﻿  static void Main () {
-  
+﻿
   for(int n=1; n<=100; n++) {
     if (n % 15 == 0) {
       Console.WriteLine("fizzbuzz");
@@ -11,6 +10,3 @@
       Console.WriteLine(n);
     }
   }
-  }
-
-  Main();
