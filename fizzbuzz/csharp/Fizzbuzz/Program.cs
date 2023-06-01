@@ -1,4 +1,6 @@
-﻿  for(var n=1; n<=100; n++) {
+﻿  static void Main () {
+  
+  for(int n=1; n<=100; n++) {
     if (n % 15 == 0) {
       Console.WriteLine("fizzbuzz");
     } else if (n % 3 == 0) {
@@ -9,3 +11,6 @@
       Console.WriteLine(n);
     }
   }
+  }
+
+  Main();
